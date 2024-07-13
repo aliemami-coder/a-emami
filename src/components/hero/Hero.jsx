@@ -9,11 +9,9 @@ const heroContent = {
   heroImage: heroImg,
   heroMobileImage: heroImgMobile,
   heroTitleName: "Ali Emami",
-  heroDesignation: "web designer",
-  heroDescriptions: `I'm a web designer & front‑end developer focused on
-  crafting clean & user‑friendly experiences, I am passionate about
-  building excellent software that improves the lives of those
-  around me.`,
+  heroDesignation: "web developer",
+  heroDescriptions: `I am passionate Full Stack Web Developer with expertise in crafting dynamic and responsive web applications. With a strong foundation in both front-end and back-end technologies, I specialize in delivering seamless user experiences and robust functionality. My skill set includes HTML, CSS, JavaScript, Next.js, Laravel, and MySql, among others.
+  Explore my projects, or get in touch to discuss how I can help bring your web ideas to life!`,
   heroBtn: "more about me",
 };
 

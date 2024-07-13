@@ -2,28 +2,28 @@ import React from "react";
 
 const experienceContent = [
     {
-        year: "2021 - Present",
-        position: "Full Stack Developer",
-        company: "Sakhtbazar",
-        details: `SEO manager and graphic designer, user interface and user experience`,
+        year: "2024 - Present",
+        position: "Front End Developer",
+        company: "Harmony",
+        details: `Front end developer of compony projects`,
     },
     {
-        year: "2021 - Present",
+        year: "2021 - 2024",
+        position: "Full Stack Developer",
+        company: "Sakhtbazar",
+        details: `IT Head and project manager`,
+    },
+    {
+        year: "2021 - 2024",
         position: "Full Stack Developer",
         company: "AronGroups",
         details: `Front and back end programmer and maintenance of designed platforms`,
     },
     {
-        year: "2019",
-        position: " IT manager",
-        company: "Faraz Sanat Palize",
-        details: `IT manager and digital marketer and manager of social networks`,
-    },
-    {
         year: "   2018",
         position: " PHP programmer",
         company: "Sabinserver",
-        details: `  Designing and programming WordPress templates and content writing in the field of hosting`,
+        details: `  Intern of Designing and programming WordPress templates and content writing in the field of hosting`,
     },
 ];
 

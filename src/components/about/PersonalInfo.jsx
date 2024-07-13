@@ -3,14 +3,14 @@ import React from "react";
 const personalInfoContent = [
   { meta: "First Name", metaInfo: "Ali" },
   { meta: "Last Name", metaInfo: "Emami" },
-  { meta: "Age", metaInfo: "23 Years" },
+  { meta: "Age", metaInfo: "24 Years" },
   { meta: "Nationality", metaInfo: "Iranian" },
   { meta: "Freelance", metaInfo: "Available" },
-  { meta: "Address", metaInfo: "Andisheh Town, Tabriz City, Iran" },
-  { meta: "Phone", metaInfo: "+989145805045" },
+  { meta: "Address", metaInfo: "Tabriz City, Iran" },
+  { meta: "Phone", metaInfo: "(+98) 914 580 50 45" },
   { meta: "Email", metaInfo: "aliemami.coder@gmail.com" },
   { meta: "Telegram", metaInfo: "@aliemami_coder" },
-  { meta: "Languages", metaInfo: "Turkish, Azerbaijan, Persian, English" },
+  { meta: "Languages", metaInfo: "Turkish, Persian, English" },
 ];
 
 const PersonalInfo = () => {

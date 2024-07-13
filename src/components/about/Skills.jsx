@@ -2,21 +2,21 @@ import React from "react";
 
 const skillsContent = [
   { skillClass: "p100", skillPercent: "100", skillName: "HTML/CSS" },
-  { skillClass: "p89", skillPercent: "89", skillName: "JAVASCRIPT" },
-  { skillClass: "p86", skillPercent: "86", skillName: "PHP" },
+  { skillClass: "p97", skillPercent: "97", skillName: "JAVASCRIPT" },
+  { skillClass: "p90", skillPercent: "90", skillName: "PHP" },
   { skillClass: "p95", skillPercent: "95", skillName: "WORDPRESS" },
-  { skillClass: "p98", skillPercent: "98", skillName: "JQUERY" },
-  { skillClass: "p84", skillPercent: "84", skillName: "VUE JS" },
-  { skillClass: "p92", skillPercent: "92", skillName: "REACT JS" },
-  { skillClass: "p90", skillPercent: "90", skillName: "NEXT JS" },
+  { skillClass: "p97", skillPercent: "97", skillName: "NEXT JS" },
   { skillClass: "p100", skillPercent: "100", skillName: "TAILWINDCSS" },
   { skillClass: "p65", skillPercent: "65", skillName: "PYTHON" },
-  { skillClass: "p88", skillPercent: "88", skillName: "LARAVEL" },
+  { skillClass: "p90", skillPercent: "90", skillName: "LARAVEL" },
   { skillClass: "p100", skillPercent: "100", skillName: "TAILWINDCSS" },
-  { skillClass: "p70", skillPercent: "70", skillName: "NODE JS" },
-  { skillClass: "p65", skillPercent: "65", skillName: "EXPRESS" },
   { skillClass: "p100", skillPercent: "100", skillName: "BOOTSTRAP" },
-  { skillClass: "p80", skillPercent: "80", skillName: "JAVA" },
+  { skillClass: "p100", skillPercent: "100", skillName: "Material UI" },
+  { skillClass: "p100", skillPercent: "100", skillName: "Mantine UI" },
+  { skillClass: "p90", skillPercent: "90", skillName: "Ant Design" },
+  { skillClass: "p90", skillPercent: "90", skillName: "React Native" },
+  { skillClass: "p50", skillPercent: "50", skillName: "Rust" },
+  { skillClass: "p30", skillPercent: "30", skillName: "UE5" },
 ];
 
 const Skills = () => {

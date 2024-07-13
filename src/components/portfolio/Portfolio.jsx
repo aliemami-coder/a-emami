@@ -18,9 +18,10 @@ const Portfolio = () => {
         <Tabs>
           <TabList className="portfolio-tab-list" data-aos="fade-up">
             <Tab>ALL</Tab>
-            <Tab>LARAVEL</Tab>
-            <Tab>REACT JS/NEXT JS</Tab>
+            <Tab>Back End</Tab>
+            <Tab>Front End</Tab>
             <Tab>UI/UX</Tab>
+            <Tab>WordPress</Tab>
             <Tab>GRAPHICS</Tab>
           </TabList>
 
@@ -53,7 +54,7 @@ const Portfolio = () => {
 
             <TabPanel>
               <div className="tab-container">
-                {PortfolioData.filter((item) => item.tag.includes("LARAVEL")).map(
+                {PortfolioData.filter((item) => item.tag.includes("Back End")).map(
                   (item) => {
                     const { id, type, image, delayAnimation } = item;
                     return (
@@ -81,7 +82,34 @@ const Portfolio = () => {
 
             <TabPanel>
               <div className="tab-container">
-                {PortfolioData.filter((item) => item.tag.includes("REACT JS/NEXT JS")).map(
+                {PortfolioData.filter((item) => item.tag.includes("Front End")).map(
+                  (item) => {
+                    const { id, type, image, delayAnimation } = item;
+                    return (
+                      <div
+                        key={id}
+                        data-aos="fade-right"
+                        data-aos-delay={delayAnimation}
+                      >
+                        <div
+                          className="tab-content"
+                          onClick={() => handleModal(id)}
+                        >
+                          <img src={image} alt="portfolio project demo" />
+                          <h3>
+                            <span className="conent-title">{type}</span>
+                          </h3>
+                        </div>
+                        {/* {getModal && <Modal props={modalId} />} */}
+                      </div>
+                    );
+                  }
+                )}
+              </div>
+            </TabPanel>
+            <TabPanel>
+              <div className="tab-container">
+                {PortfolioData.filter((item) => item.tag.includes("UI/UX")).map(
                   (item) => {
                     const { id, type, image, delayAnimation } = item;
                     return (
@@ -110,7 +138,7 @@ const Portfolio = () => {
             <TabPanel>
               <div className="tab-container">
                 {PortfolioData.filter((item) =>
-                  item.tag.includes("UI/UX")
+                  item.tag.includes("WordPress")
                 ).map((item) => {
                   const { id, type, image, delayAnimation } = item;
                   return (

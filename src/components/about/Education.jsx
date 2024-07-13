@@ -2,8 +2,8 @@ import React from "react";
 
 const educationContent = [
     {
-        year: "2015",
-        degree: "ENGINEERING DEGREE",
+        year: "2018-2022",
+        degree: "Computer Engineering",
         institute: "PNU UNIVERSITY",
         details: `  Winning the third place in the provincial and national stages of ACM programming competitions`,
     },
